@@ -1,0 +1,21 @@
+execute pathogen#infect()
+
+syntax enable
+set bg=dark
+set t_Co=256
+set encoding=utf-8
+colorscheme solarized
+
+set nu
+set bs=2
+set autoindent
+set cindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set showmode
+set showcmd
+
+set laststatus=2
+set clipboard=unnamed
+set mouse+=a
