@@ -51,6 +51,10 @@ apps=(
 brew install ${apps[@]}
 $(brew --prefix)/opt/fzf/install
 
+# Workspace configuration
+echo "Updating work path"
+mkdir -p $WORK_PATH/GitHub $WORK_PATH/Notebook $WORK_PATH/Tests
+
 # Vim configuration
 mkdir -p $HOME/.vim/autoload $HOME/.vim/bundle && cd $HOME/.vim/bundle
 curl -LSso $HOME/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
