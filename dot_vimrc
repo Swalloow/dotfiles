@@ -4,6 +4,7 @@ syntax enable
 set bg=dark
 set t_Co=256
 set encoding=utf-8
+set termguicolors
 colorscheme solarized
 
 set nu
