@@ -1,0 +1,21 @@
+# fonts
+font-size = 14
+font-style = medium
+theme = Solarized Dark - Patched
+foreground = #93a1a1
+selection-invert-fg-bg = true
+
+# cursor
+cursor-style = block
+cursor-style-blink = false
+
+# clipboard
+copy-on-select = clipboard
+clipboard-trim-trailing-spaces = true
+
+# behavior
+auto-update = check
+auto-update-channel = stable
+quit-after-last-window-closed = true
+shell-integration = zsh
+shell-integration-features = true
