@@ -14,8 +14,9 @@ WORK_PATH="$HOME/Documents"
 DOWNLOAD_PATH="$HOME/Downloads"
 
 echo "Installing xcode-stuff..."
-sudo rm -rf /Library/Developer/CommandLineTools
-xcode-select --install
+if [ ! -d "/Library/Developer/CommandLineTools" ]; then
+  xcode-select --install
+fi
 
 # Install Homebrew
 if test ! $(which brew); then
