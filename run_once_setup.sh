@@ -68,7 +68,7 @@ git config --global user.email swalloow.me@gmail.com
 
 # Zsh configuration
 echo "Installing zsh config..."
-curl -L http://install.ohmyz.sh | sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 brew install zsh-completions
 chsh -s `which zsh`
 
